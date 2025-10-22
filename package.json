@@ -1,0 +1,32 @@
+{
+  "name": "ai-assisted-test-updater",
+  "version": "1.0.0",
+  "description": "AI-powered tool for automatically updating API tests based on OpenAPI specification changes",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "node dev-run.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "api",
+    "testing",
+    "openapi",
+    "ai",
+    "github-action",
+    "automation"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "@apidevtools/swagger-parser": "^10.1.0",
+    "@octokit/rest": "^20.0.2",
+    "glob": "^10.3.10",
+    "js-yaml": "^4.1.0",
+    "micromatch": "^4.0.5",
+    "openai": "^4.20.1"
+  },
+  "engines": {
+    "node": ">=20.0.0"
+  }
+}

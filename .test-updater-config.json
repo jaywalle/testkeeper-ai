@@ -1,0 +1,14 @@
+{
+  "api_spec_paths": [
+    "**/openapi.yaml",
+    "**/openapi.yml",
+    "**/swagger.json",
+    "docs/**/*.yaml",
+    "docs/gss-api.yaml"
+  ],
+  "test_code_paths": [
+    "test/**/*.feature"
+  ],
+  "detector": "api",
+  "model": "gpt-4o-mini"
+}
